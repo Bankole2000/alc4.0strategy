@@ -9,12 +9,25 @@ closeAll();
 
 $(".viewchannel").click(function(e) {
   e.preventDefault();
-  target = e.target.id;
+  let target = e.target.id;
   $(`#${target}channels`).slideToggle("300");
 });
 
 $(".viewcourse").click(function(e) {
   e.preventDefault();
-  target = e.target.id;
+  let target = e.target.id;
   $(`#${target}courses`).slideToggle("300");
+});
+
+$(window).click(function(e) {
+  let id, status;
+  if (e.target.className.includes("form-check-input")) {
+    id = e.target.id;
+    if (e.target.checked) {
+      status = "done";
+    } else {
+      status = "Not yet Done";
+    }
+    console.log(`${id} is ${status}`);
+  }
 });
