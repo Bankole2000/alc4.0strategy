@@ -41,7 +41,7 @@
             <div class="card text-center text-white bg-success mb-3" style="width: 100%;">
               
                 <div class="card-body">
-                  <h4 class="card-title"><small><i class="material-icons">android</i></small> &nbsp; Android Track</h4>
+                  <h4 class="card-title"><i class="fab fa-android"></i> Android Track</h4>
                   <h5 class="card-text mb-3">Your Path to becoming an <strong>Android Developer</strong></h5>
                   <a href="" id="android" class="viewchannel btn btn-light">View Android Channels</a>
                 </div>
@@ -197,7 +197,7 @@
               <div class="card text-center text-white bg-primary mb-3" style="width: 100%;">
                 
                   <div class="card-body">
-                    <h4 class="card-title"><small><i class="material-icons">cloud</i></small> &nbsp; Cloud Track</h4>
+                    <h4 class="card-title"><i class="fas fa-cloud"></i> Cloud Track</h4>
                     <h5 class="card-text mb-3">Your Path to becoming a <strong>Cloud Engineer</strong></h5>
                     <a href="" id="cloud" class="viewchannel btn btn-light">View Cloud Channels</a>
                   </div>
@@ -329,7 +329,7 @@
                 <div class="card text-center text-white bg-danger mb-3" style="width: 100%;">
                   
                     <div class="card-body">
-                      <h4 class="card-title"><small><i class="material-icons">phone_android</i></small> &nbsp; Mobile Web Track</h4>
+                      <h4 class="card-title"><i class="fas fa-mobile"></i> Mobile Web Track</h4>
                       <h5 class="card-text mb-3">Your Path to becoming a <strong>Mobile Web Developer</strong></h5>
                       <a href="" id="mobileweb" class="viewchannel btn btn-light">View Mobile Web Channels</a>
                     </div>
@@ -671,20 +671,19 @@
 
     
 
-                      <div class="container">
-                          
-                        </div>
+    <footer class="footer mt-auto py-2 bg-dark text-white text-center">
+      <div class="container">
+        <p>Made with <i class="fa fa-heart"></i> by <a class="text-white" href="https://bankole2000.github.io/portfolio" target="_blank">Banky</a>&nbsp; | &nbsp; <i class="fab fa-github"></i> View Repo</p>
+      </div>
+    </footer>           
 
-                        
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/moment.min.js"></script>
-    
+    <script src="assets/js/moment.min.js"></script>    
     <script src="assets/datatables/jquery.dataTables.min.js"></script>
     <script src="assets/js/popper.js"></script>
     <script src="assets/datatables/dataTables.bootstrap4.min.js"></script>
-    <script src="assets/js/datetime-moment.js"></script>
-    
+    <script src="assets/js/datetime-moment.js"></script>    
     <script src="assets/js/app.js"></script>
     <script>
       let FND = [
@@ -2238,6 +2237,134 @@
         });
 
         $("#andoptbps").DataTable({
+          data: OPTBPS,
+          columns: [
+            { title: "ID" },
+            { title: "Course Name" },
+            { title: "Author" },
+            { title: "Difficulty" },
+            { title: "Release Date" },
+            { title: "Length" },
+            { title: "Exercise Files" },
+            { title: "Transcript" },
+            { title: "Link" },
+            { title: "Status" }
+          ]
+        });
+
+        $("#html5path").DataTable({
+          data: OPTBPS,
+          columns: [
+            { title: "ID" },
+            { title: "Course Name" },
+            { title: "Author" },
+            { title: "Difficulty" },
+            { title: "Release Date" },
+            { title: "Length" },
+            { title: "Exercise Files" },
+            { title: "Transcript" },
+            { title: "Link" },
+            { title: "Status" }
+          ]
+        });
+
+        $("#css3path").DataTable({
+          data: OPTBPS,
+          columns: [
+            { title: "ID" },
+            { title: "Course Name" },
+            { title: "Author" },
+            { title: "Difficulty" },
+            { title: "Release Date" },
+            { title: "Length" },
+            { title: "Exercise Files" },
+            { title: "Transcript" },
+            { title: "Link" },
+            { title: "Status" }
+          ]
+        });
+
+        $("#javascriptpath").DataTable({
+          data: OPTBPS,
+          columns: [
+            { title: "ID" },
+            { title: "Course Name" },
+            { title: "Author" },
+            { title: "Difficulty" },
+            { title: "Release Date" },
+            { title: "Length" },
+            { title: "Exercise Files" },
+            { title: "Transcript" },
+            { title: "Link" },
+            { title: "Status" }
+          ]
+        });
+
+        $("#angularpath").DataTable({
+          data: OPTBPS,
+          columns: [
+            { title: "ID" },
+            { title: "Course Name" },
+            { title: "Author" },
+            { title: "Difficulty" },
+            { title: "Release Date" },
+            { title: "Length" },
+            { title: "Exercise Files" },
+            { title: "Transcript" },
+            { title: "Link" },
+            { title: "Status" }
+          ]
+        });
+
+        $("#nodejspath").DataTable({
+          data: OPTBPS,
+          columns: [
+            { title: "ID" },
+            { title: "Course Name" },
+            { title: "Author" },
+            { title: "Difficulty" },
+            { title: "Release Date" },
+            { title: "Length" },
+            { title: "Exercise Files" },
+            { title: "Transcript" },
+            { title: "Link" },
+            { title: "Status" }
+          ]
+        });
+
+        $("#aadpath").DataTable({
+          data: OPTBPS,
+          columns: [
+            { title: "ID" },
+            { title: "Course Name" },
+            { title: "Author" },
+            { title: "Difficulty" },
+            { title: "Release Date" },
+            { title: "Length" },
+            { title: "Exercise Files" },
+            { title: "Transcript" },
+            { title: "Link" },
+            { title: "Status" }
+          ]
+        });
+
+        $("#javapath").DataTable({
+          data: OPTBPS,
+          columns: [
+            { title: "ID" },
+            { title: "Course Name" },
+            { title: "Author" },
+            { title: "Difficulty" },
+            { title: "Release Date" },
+            { title: "Length" },
+            { title: "Exercise Files" },
+            { title: "Transcript" },
+            { title: "Link" },
+            { title: "Status" }
+          ]
+        });
+
+        $("#devopspath").DataTable({
           data: OPTBPS,
           columns: [
             { title: "ID" },
