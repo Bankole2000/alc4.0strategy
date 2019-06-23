@@ -1,3 +1,5 @@
+M.AutoInit();
+
 const closeAll = () => {
   $("#androidchannels").slideToggle();
   $("#cloudchannels").slideToggle();
@@ -20,7 +22,7 @@ $(".viewcourse").click(function(e) {
 });
 
 $(window).click(function(e) {
-  let id, status;
+  let id, status, message;
   if (e.target.className.includes("form-check-input")) {
     id = e.target.id;
     if (e.target.checked) {
@@ -28,6 +30,8 @@ $(window).click(function(e) {
     } else {
       status = "Not yet Done";
     }
+    message = `${id} is ${status}`;
+    M.toast({ html: message });
     console.log(`${id} is ${status}`);
   }
 });
