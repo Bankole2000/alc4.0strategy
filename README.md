@@ -64,7 +64,7 @@ const CLDLP1MT = [["id1", "title1", ...etc], ["id2", "title2", ...etc]];
 
 // Datatables library loading array to table with id
 $("#cldlp1mt").DataTable({
-  data: MWSLP1MT,
+  data: CLDLP1MT,
   columns: [
     { title: "ID" },
     { title: "Course Name" },
