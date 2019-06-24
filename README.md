@@ -12,43 +12,49 @@ _<p align="center">"Because all things must come to an end, let's cherish the me
 
 ## What is This?
 
-A simple personal record of all the learning material available on the **ALC** _(Andela Learning Community)_ **4.0** learning program. Built with [Bootstrap 4](https://getbootstrap.com/), [jQuery DataTables](), [moment.js]() and a bit of [Patience](https://simpleprogrammer.com/improve-your-patience-developer/)... (_quite_ a bit)..
+A simple personal record of all the learning material available on the **ALC** _(Andela Learning Community)_ **4.0** learning program. Built with [Bootstrap 4](https://getbootstrap.com/), [jQuery DataTables](), [moment.js](), [LocalStorage]() and a bit of [Patience](https://simpleprogrammer.com/improve-your-patience-developer/)... (_quite_ a bit)..
 
 ### Features:
 
-- List of **All PluralSight Channels** and **Paths** _currently_\* available (As at **Phase 1**) on the **3 Main Tracks** `Android`, `Mobile Web`, and `Google Cloud`
-- List of **All Courses** Currently available on all the channels, tabulated in an orderly, searchable manner.
-- Links to course resources - **Transcripts**, **Excercise Files**, and videos
+- List of (and links to) **All PluralSight Channels** and **Paths** _currently_\* available (As at **Phase 1**) on the **3 Main Tracks** `Android`, `Mobile Web`, and `Google Cloud`
+- Searchable List of **all Courses** on all the channels, tabulated in an orderly manner.
+- Direct Links to **Every. Single. Course.** (you're welcome).
+- Links to course resources - **Transcripts**, **Excercise Files** (still working on this).
+- Keep Track of Completed courses by marking as **Done**
   > Note: Videos are only accessible if you have a PluralSight account with the Google Scholarship on that specific track, or are subscribed to PluralSight.
 
-## The BackStory - Why I made this
+## BackStory - Why I made this
 
-I was excited to learnt that I had been accepted as a Volunteer [Andela](https://andela.com) Learning Community Ambassador (LCA). But even more exciting, was that I had moved on to the next phase of the **Google + PluralSight + Andela** Scholarship program on **ALL 3 TRACKS** (Pretty exciting stuff yeah?).
+I was excited to learn that I had been accepted as a Volunteer [Andela](https://andela.com) Learning Community Ambassador (LCA). But even more exciting, was that I had moved on to the next phase of the **Google + PluralSight + Andela** Scholarship program on **ALL 3 TRACKS** (Pretty exciting stuff yeah?).
 
 But once I logged in to My PluralSight Library I _Immediately_ realized 3 things.
 
-1. That everything (and I mean _**everything**_!) I'd ever want or need to learn as a software Engineer was more than well covered in the training materials - (I don't think I'll be needing youtube or Udemy anymore :smirk: )
+1. That everything (and I mean _**everything**_!) I'd ever want or need to learn as a software Engineer was more than well covered in the training materials - (I don't think I'll be needing youtube anymore :smirk: )
 
-2. The program is 9 months long (approximately), but the materials are worth a **lifetime** of careful study and practice, even _after_ the program. And
+2. The ALC program is only a few months long, but the materials are worth a **lifetime** of _careful study_ and _practice_, even _after_ the program. And
 
 3. Being on **all 3 tracks**, I have the rare privilege of having access to materials from other tracks that a lot of other people don't have - But they'd probably also like to see.
 
-## So What?
+And After listening to **Dan AppleMan**'s Course on _**"Learning Technology in the Information Age"**_, I knew I had to plan my approach carefully otherwise risk getting lost in it all.
 
-So, in order to **pace** Myself, and gear up for the long haul, I made this... thing (I guess)... with `transcripts` and direct links to all the channels, Paths, Courses, and Excercise files.
+## So What? 
+
+So, in order to **pace** Myself and gear up for the long haul, I made this... with direct links to _all_ the Channels, Paths, Courses, Transcripts and Excercise files (still working on the last 2), **searchable** and **sortable** by title, Difficulty, tutor, Course Length etc...
+
+Also, I found that the PluralSight website loads reeeeaaaally slow on my computer, and is difficult to navigate on the mobile app too, and I just wanted a light weight interface so I could quickly find where I wanted to go and keep track of what I've done so far.
 
 This was originally supposed to be a personal thing that I would use... But I felt it might be helpful to others as well...
 
-I also recognized the possibility that I might not make it to Phase 2, so I built this just in case that happens, so I can continue learning. And anyone who doesn't make it to phase 2 can refer to this page as well.
+I also recognized the possibility that I might not make it to the next Phase (full time job, shitty computer/internet... there's lots of reasons), so I built this just in case that happens, so I can continue learning regardless. And anyone who doesn't make it to the next phase or whatever feel free to use this page as well.
 
-> Also (Just a thought), when the Program ends, if I can afford it, I might stay subscribed to [PluralSight](https://pluralsight.com) so I can keep learning coz the materials are _that_ good.
+> Also (Just a thought), when the Program ends, if I can afford it, I might stay subscribed to [PluralSight](https://pluralsight.com) so I can keep learning coz the materials are really, _really_ good.
 
 ## Features in Development
 
-- Still Working on Adding Courses from the Different Learning Paths
-- Need To use `LocalStorage` to persist checked state of **Done** courses in the various Courses Tables. (So that way users can easily mark their progress)
-- Still Copying and linking the Transcripts from the Different Courses... ngl it might take a while >.<
-- Notifications maybe? idk... Any Suggestions are welcome...
+- [x] Adding Courses from the Different Learning Paths
+- [x] Use `LocalStorage` to persist checked state of **Done** courses in the various Courses Tables. (So that way users can easily mark their progress)
+- [ ] Links to Transcripts and Excercise Files for each course... it might take a while >.<
+- [x] Notifications maybe? idk... Any Suggestions are welcome...
 
 ## Contribution
 

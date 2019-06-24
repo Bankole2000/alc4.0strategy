@@ -87,19 +87,21 @@ const getDone = () => {
   done.forEach(item => {
     console.log(item);
     let el = document.getElementById(item);
-    console.log(typeof item);
-    console.log(el);
-    let status = "done";
-    let row = el.parentElement.parentElement.parentElement;
-    document.getElementById(item).checked = true;
-    colorChange(status, row);
+    if (el != null) {
+      console.log(typeof item);
+      console.log(el);
+      let status = "done";
+      let row = el.parentElement.parentElement.parentElement;
+      document.getElementById(item).checked = true;
+      colorChange(status, row);
+    }
   });
 };
 
 const getAllDone = () => {
   setTimeout(() => {
     getDone();
-  }, 2000);
+  }, 3000);
 };
 
 document.addEventListener("DOMContentLoaded", getAllDone);
