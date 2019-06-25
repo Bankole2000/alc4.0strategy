@@ -1,0 +1,26 @@
+HTML Fundamentals
+
+by Matt Milner
+
+Learn the primary building block of web development: HTML. Get a firm understanding of how HTML markup becomes web pages with images, text, and lists.
+
+At the core of web development is a thorough knowledge of HTML. In this course, HTML Fundamentals, you’ll learn how to build web pages. First, you’ll cover the basics of HTML markup. Next, you’ll explore lists, tables, and text. Finally, you’ll discover how to add images to your web pages. When you’re finished with this course, you’ll have a foundational knowledge of HTML that will help you as you move forward to web development.
+Course author
+Author: Matt Milner
+Matt Milner
+
+Matt is an independent consultant with expertise in web application design and development and systems integration. As a writer, Matt has contributed to several journals and magazines such as MSDN...
+Course info
+Level
+Beginner
+Rating
+4.5 stars with 2587 raters(2587)
+My rating
+null stars
+Duration
+2h 20m
+Updated
+21 Jun 2019
+Share course
+
+
