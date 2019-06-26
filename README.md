@@ -16,9 +16,8 @@ A simple personal record of all the learning material available on the **ALC** _
 
 ### Features:
 
-- List of (and links to) **All PluralSight Channels** and **Paths** _currently_\* available (As at **Phase 1**) on the **3 Main Tracks** `Android`, `Mobile Web`, and `Google Cloud`
+- List of (and links to) **all PluralSight Channels, Paths** and **Courses** _currently_\* available (As at **Phase 1**) on the **3 Main Tracks** `Android`, `Mobile Web`, and `Google Cloud`
 - Searchable List of **all Courses** on all the channels, tabulated in an orderly manner.
-- Direct Links to **Every. Single. Course.** (you're welcome).
 - Links to course resources - **Transcripts**, **Excercise Files** (still working on this).
 - Keep Track of Completed courses by marking as **Done**
   > Note: Videos are only accessible if you have a PluralSight account with the Google Scholarship on that specific track, or are subscribed to PluralSight.
@@ -29,7 +28,7 @@ I was excited to learn that I had been accepted as a Volunteer [Andela](https://
 
 But once I logged in to My PluralSight Library I _Immediately_ realized 3 things.
 
-1. That everything (and I mean _**everything**_!) I'd ever want or need to learn as a software Engineer was more than well covered in the training materials - (I don't think I'll be needing youtube anymore :smirk: )
+1. That everything in the entire **SDLC** (and I mean _**everything**_!) I'd ever want or need to learn as a software Engineer was more than well covered in the training materials - (I won't be needing youtube for a while :smirk: )
 
 2. The ALC program is only a few months long, but the materials are worth a **lifetime** of _careful study_ and _practice_, even _after_ the program. And
 
@@ -45,7 +44,7 @@ Also, I found that the PluralSight website loads reeeeaaaally slow on my compute
 
 This was originally supposed to be a personal thing that I would use... But I felt it might be helpful to others as well...
 
-I also recognized the possibility that I might not make it to the next Phase (full time job, shitty computer/internet... there's lots of reasons), so I built this just in case that happens, so I can continue learning regardless. And anyone who doesn't make it to the next phase or whatever feel free to use this page as well.
+I also recognized the possibility that I might not be selected for the next Phase (reasons - full time job, shitty computer/internet, life... there's lots of reasons), so I built this just in case, so I can continue learning regardless. And anyone who doesn't make it to the next phase or whatever feel free to use this page as well.
 
 > Also (Just a thought), when the Program ends, if I can afford it, I might stay subscribed to [PluralSight](https://pluralsight.com) so I can keep learning coz the materials are really, _really_ good.
 
