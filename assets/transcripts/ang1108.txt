@@ -1,0 +1,99 @@
+Angular Services
+by Brice Wilson
+
+Services are a crucial part of every well-structured Angular application. This course will teach you how to create great services, and how to use Angular's dependency injection system to deliver the right service at the right time.
+
+Services are a core building block in all Angular applications. In this course, Angular Services, you'll learn how to create and deliver the discrete, functional services needed to meet all of your user requirements. First, you'll explore how to create services. Next, you'll discover how to provide those services to Angular's dependency injection system. Finally, you'll delve into configuring injectors to precisely control when and where your services are delivered. When you're finished with this course, you'll have the foundational understanding and practical skills required to build well-structured Angular applications that take full advantage of services and Angular's dependency injection system.
+
+Course author
+Author: Brice Wilson	
+Brice Wilson
+Brice Wilson has been a professional developer for over 20 years and has used many tools and programming languages during that time. His current interests are centered on web services, single-page...
+
+Course info
+Level
+Intermediate
+Rating
+4.7 stars with 130 raters(130)
+My rating
+null stars
+
+Duration
+2h 28m
+Updated
+19 Nov 2018
+Share course
+
+Course Overview
+Course Overview
+Hey everybody. My name is Brice Wilson and welcome to my course Angular Services. I'm a server and client side web developer. Angular is a wildly popular client side web framework and for lots of good reasons. It helps you quickly build well-structured, maintainable, and performance oriented web applications. In this course, we're going to cover how to create and configure Angular Services that take full advantage of Angular's dependency injection system to make sure your apps deliver the right service at the right time. Some of the major topics that we'll cover include creating and use services, configuring injectors, working with hierarchical injectors, creating asynchronous services, and finding and using built-in services. By the end of this course, you'll know how to create reusable and maintainable services that are configured to take full advantage of Angular's dependency injection system. Before beginning this course, you should be familiar with the basics of Angular and TypeScript, but you certainly don't need to be an expert. I hope you'll join me on this journey to learn about creating great services in Angular with the Angular Services course at Pluralsight.
+
+The Role Services Play in an Angular Application
+Introduction
+Hi, this is Brice Wilson. Welcome to Angular Services. Services are an important part of any Angular application and in this course I'll show you how to create them and how they work so that you can take full advantage of them in your own applications. In this first module of the course, I'm going to focus on the roles services play and help you understand when you should use them. We'll get started by defining exactly what a service is before explaining when you should use a service instead of just adding more code to an Angular component you've already created. I'll then give you a brief overview of the topics I'll cover in the course, as well as a quick look at the demo project and how the code in it is structured. Let's get started.
+
+What Is an Angular Service?
+It's now time to answer a very important question you likely have, exactly what is an Angular service? You've probably heard of and used components, but how is a service different and when should you consider using one? A service is really just a reusable piece of functionality that can be shared across components. Services should have a single responsibility. You shouldn't just add a single service to your app and dump all of your shared functionality into it. Services are also bits of functionality that are able to be delivered when and where they're needed in the application. This is accomplished in Angular by adding our services to the dependency injection system. I think the hospitality industry is a good analogy for how services should work in an Angular app. If you're staying at a nice hotel, there are multiple services you may take advantage of while you're there. You might order some food from room service, you might have your clothes cleaned the night before an important meeting, or you might call housekeeping to request a fresh set of towels. These are all discrete services with a single responsibility. They're also shared across all of the guests in a hotel in the same way that Angular services are shared across all of the components in an application. If I take this analogy one step further, we can think of the concierge at the hotel as the dependency injection system for the hotel services. We request the services we need from the concierge and she makes sure they're delivered when and where they're needed. Okay, now that you know what services are, the next reasonable question is likely - components or services? Where should you add your code? If you've ever created a component, you know it contains executable code and you could implement just about any feature you need right inside the component. The official Angular style guide on the Angular website provides some guidance for us on this question. Style 05-15 says "do limit logic in a component to only that required for the view. All other logic should be delegated to services. " The primary purpose of the code in the component is to control and manipulate the user interface. It should call services to provide functionality not directly related to the UI. Therefore, you should consider creating a service if the necessary functionality is not required by the view or if you need to create some shared logic or business rules that you expect to use for multiple components. Another reason to consider a service is if you need to share small bits of data across components. Services are great for that as well. I'll show you an example of that in the next module.
+
+Course Overview
+Let's quickly go over what I'll cover in each module of the course. After this introductory module, I'll start writing some code and show you a couple of different ways to create and use services and the things you need to do to make sure Angular's dependency injection system is aware of them. In the following module, I'll dive deeper into the dependency injection system and show you lots of ways you can configure it to deliver the right service at the right time. After that, I'll show you how to create asynchronous services. They're essential if your app needs to retrieve data from a server, which nearly all apps do. I'll wrap up the course with a look at some common services that are built into the framework and how to use them. Let's now jump into a demo and I'll show you the project I'll be working on throughout the course and how the code is structured.
+
+Demo: Book Tracker Project Overview
+Summary
+I hope you've seen in this module that services are important. They're one of the major building blocks of any well structured Angular application. They allow you to easily implement shared, reusable, discrete pieces of functionality and compliment the view logic you write in your components. In the next module, I'll show you how to create services, add them to a dependency injector, and use them in your components. Stay tuned.
+
+Creating and Using Services
+Introduction and Overview
+Parts of a Service
+Delivering Services to Components
+Demo: Manually Creating a Logger Service
+Demo: Creating a Service with the Angular CLI
+Sharing Data with Services
+Demo: Sharing Data with Service
+Summary
+Understanding and Configuring Dependency Injection
+Introduction and Overview
+What Is Dependency Injection?
+Provider Tokens and Recipes
+Demo: Multiple Ways to Provide Services
+Injectors and Metadata
+Hierarchical Injectors
+Demo: Hierarchical Injectors
+Deciding Where to Provide Services
+Demo: Providing Feature Services
+Demo: Creating a Core Module
+Summary
+Creating Asynchronous Services
+Introduction and Overview
+What Are Asynchronous Services?
+Observables
+Demo: Processing an Asynchronous HTTP Request with an Observable
+Demo: Abstracting Away HTTP Errors
+Promises
+Demo: Asynchronously Executing a Task with a Promise
+Understanding async/await
+Demo: Handling a Promise with async/await
+Summary
+Consuming Common Built-in Services
+Introduction and Overview
+Demo: Finding and Using Built-in Services
+Demo: Implementing a Centralized Error Handler
+Summary
+Course author
+Author: Brice Wilson	
+Brice Wilson
+Brice Wilson has been a professional developer for over 20 years and has used many tools and programming languages during that time. His current interests are centered on web services, single-page...
+
+Course info
+Level
+Intermediate
+Rating
+4.7 stars with 130 raters(130)
+My rating
+null stars
+
+Duration
+2h 28m
+Updated
+19 Nov 2018
+Share course
