@@ -1,5 +1,6 @@
 M.AutoInit();
-
+const check = `<i class="fas fa-check-square"></i>`;
+const uncheck = `<i class="fas fa-square"></i>`;
 const closeAll = () => {
   $("#androidchannels").slideToggle();
   $("#cloudchannels").slideToggle();
@@ -72,7 +73,8 @@ $(window).click(function(e) {
     }
     colorChange(status, row);
     message = `${id} is ${status}`;
-    M.toast({ html: message });
+    let icon = status === "done" ? check : uncheck;
+    M.toast({ html: `${message} &nbsp; ${icon}` });
     console.log(`${id} is ${status}`);
   }
 });
