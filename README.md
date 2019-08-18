@@ -4,7 +4,9 @@ A Birds-eye view of the ALC 4.0 Program [PluralSight](https://pluralsight.com) C
 
 [![Practice](https://img.shields.io/badge/Learning-PluralSight-purple.svg)](https://bankole2000.github.io/alc4.0strategy)
 
-_<p align="center">"Because all things must come to an end, let's cherish the memories while we live them"<br>- **Esan Bankole** (yes... My quote)</p>_
+_<p align="center">"Because all things must come to an end, let's cherish the memories while we live them"<br>- **Esan Bankole** (Phase 1 Quote)</p>_
+
+_<p align="center">"Sometimes... the only way to succeed is to prepare meticulously to fail."<br>- **Esan Bankole** (Phase 2 Quote)</p>_
 
 <div align="center" style="text-align:center; margin:auto;">
 <img align="center" src="https://www.newvision.co.ug/w-images/b0b00621-7de0-4cdb-9659-985b4525dff1/1/ALC-703x422.jpg" width="200"/>
@@ -16,7 +18,7 @@ A simple personal record of all the learning material available on the **ALC** _
 
 ### Features:
 
-- List of (and links to) **all PluralSight Channels, Paths** and **Courses** _currently_\* available (As at **Phase 1**) on the **3 Main Tracks** `Android`, `Mobile Web`, and `Google Cloud`
+- List of (and links to) **all PluralSight Channels, Paths** and **Courses** _currently_\* available (As at **Phase 2**) on the **3 Main Tracks** `Android`, `Mobile Web`, and `Google Cloud`
 - Searchable List of **all Courses** on all the channels, tabulated in an orderly manner.
 - Links to course resources - **Transcripts**, **Excercise Files** (still working on this).
 - Keep Track of Completed courses by marking as **Done**
